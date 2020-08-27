@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1-Search</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+	<center>
+
+	<h1>1-Search</h1>
+
+	<form action="index.html" onclick="showhide()">
+	<input type="text" name="txt_search" id="txt_search">
+	<input type="submit" name="btn_search" id="btn_search" value="Search">	
+	</form>
+
+	<br><hr><br>
+	
+	
+	<div class="tab" id="main_tab">
+	  <button class="tablinks" onclick="openCity(event, 'Google')"> <img src="assets/google_icon.png" height="25px" width="25px"> Google</button>
+	  <button class="tablinks" onclick="openCity(event, 'Yahoo')"> <img src="assets/yahoo_icon.png" height="25px" width="25px"> Yahoo</button>
+	  <button class="tablinks" onclick="openCity(event, 'Bing')"> <img src="assets/bing_icon.png" height="25px" width="25px"> Bing</button>
+	</div>
+
+	<div id="Google"  class="tabcontent">
+	  <h3>Google</h3>
+	  <p>Google Data List including their data and  url will be dsiplayed here in a list format.</p>
+	</div>
+
+	<div id="Yahoo" class="tabcontent">
+	  <h3>Yahoo</h3>
+	  <p>Yahoo Data List including their data and  url will be dsiplayed here in a list format.</p> 
+	</div>
+
+	<div id="Bing" class="tabcontent">
+	  <h3>Bing</h3>
+	  <p>Bing Data List including their data and  url will be dsiplayed here in a list format.</p>
+	</div>
+
+	</center>
+</body>
+</html>	
