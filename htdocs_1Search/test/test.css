@@ -1,0 +1,4 @@
+#!C:\Python\python.exe
+
+print("Content-type:css\r\n\r\n")
+print('h1 { color: #0000ff; }')
